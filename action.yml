@@ -61,7 +61,7 @@ runs:
 
     - name: Run all tests
       run: |
-        ls clt
+        ls clt/tests
         pwd
         set +e
         if [ -f "${{ inputs.artifact }}" ]; then
